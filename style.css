@@ -1,0 +1,104 @@
+/* reset */
+@import url("https://use.typekit.net/flm7gnl.css");
+ul li {
+  font-family: phoreuscherokee, serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 1.5rem;
+  color: #FFFFFF;
+  margin: 40px;
+}
+
+.logo-nav {
+  width: 60vw;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+body {
+  background-color: #E6BF3B;
+  background-image: url("https://res.cloudinary.com/dnui9enbr/image/upload/v1642956991/alvan-nee-eoqnr8ikwFE-unsplash_g79jmt.png");
+  background-position: right center;
+  height: 80vh;
+  background-size: auto;
+  background-repeat: no-repeat;
+}
+
+img.logo {
+  float: left;
+  height: 10vh;
+}
+
+h1 {
+  font-family: phoreuscherokee, serif;
+  font-weight: 700;
+  font-style: italic;
+  color: #FFFFFF;
+  font-size: 5rem;
+  padding-left: 5%;
+}
+
+p {
+  font-family: phoreuscherokee, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2.5rem;
+  color: #FFFFFF;
+  padding: 0% 0% 3% 5%;
+}
+
+/* styling nav bar */
+a.link {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+/* styling ghost button */
+a.ghost {
+  color: #FFFFFF;
+  border: 1px solid #FFFFFF;
+  border-radius: 8px;
+  width: 140px;
+  padding: 10px 20px 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  -webkit-transition: color 0.3s ease-out, blackground-color 0.3s ease-out;
+  transition: color 0.3s ease-out, background-color 0.3s ease-out;
+}
+
+a.ghost:hover, a.ghost:focus {
+  background-color: #FFFFFF;
+  color: #DD692C;
+  -webkit-transition: color 0.3s ease-in, background-color 0.3s ease-in;
+  transition: color 0.3s ease-in, background-color 0.3s ease-in;
+}
+
+/* styling CTA button */
+a.CTA {
+  font-family: phoreuscherokee, serif;
+  font-weight: 600;
+  font-style: normal;
+  color: #FFFFFF;
+  font-size: 1.8em;
+  border: 1px solid #DD692C;
+  background-color: #DD692C;
+  border-radius: 8px;
+  width: 230px;
+  padding: 15px 30px 15px 30px;
+  margin: 3% 5%;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: 1px 1px 1px #B7B1B1;
+  box-shadow: 2px 2px 2px #B7B1B1;
+}
+
+a.CTA:hover, a.CTA:focus {
+  background-color: #FA4700;
+  color: #FFFFFF;
+  -webkit-transition: color 0.3s ease-in, background-color 0.3s ease-in;
+  transition: color 0.3s ease-in, background-color 0.3s ease-in;
+}
